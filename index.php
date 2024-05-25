@@ -126,11 +126,11 @@ function validateForm() {
 				 </li>
 			 </ul>	 
 
-			<h2>If you have specific feedback, please write to us...</h2>
+			<h2><span style="color: red;">*</span> If you have specific feedback, please write to us...</h2>
 			<textarea placeholder="Additional comments" class="w3l_summary" name="comments" required=""></textarea>
-			<input type="text" placeholder="Your Name (optional)" name="name" required />
-			<input type="email" placeholder="Your Email (optional)" name="email" required />
-			<input type="text" placeholder="Your Number (optional)" name="num" required /><br>
+			<input type="text" placeholder="Your Name" name="name" required />
+			<input type="email" placeholder="Your Email" name="email" required />
+			<input type="text" placeholder="Your Number" name="num" required /><br>
 			<center><input type="submit" value="submit Feedback" class="agileinfo"
 			style="width: 35%;" /></center>
 	  </form>
