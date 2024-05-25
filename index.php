@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>FeedbacK Engine</title>
+<title>FeedbackCafé</title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -128,9 +128,9 @@ function validateForm() {
 
 			<h2>If you have specific feedback, please write to us...</h2>
 			<textarea placeholder="Additional comments" class="w3l_summary" name="comments" required=""></textarea>
-			<input type="text" placeholder="Your Name (optional)" name="name"  />
-			<input type="email" placeholder="Your Email (optional)" name="email"/>
-			<input type="text" placeholder="Your Number (optional)" name="num"  /><br>
+			<input type="text" placeholder="Your Name (optional)" name="name" required />
+			<input type="email" placeholder="Your Email (optional)" name="email" required />
+			<input type="text" placeholder="Your Number (optional)" name="num" required /><br>
 			<center><input type="submit" value="submit Feedback" class="agileinfo"
 			style="width: 35%;" /></center>
 	  </form>
